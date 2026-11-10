@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WEBPAGE </title>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO MY WEBSITE</h1>
+    </header> <hr>
+    <nav>
+        <a href="tel:02345773564">phone number</a>
+        <a href="#checkpoint">location</a>
+        <a href="http://www.google.com">google me</a>
+    </nav>
+    <hr>
+<main>
+    <section>
+        <p>This webpage is based on whati learnt on <em>HTML</em>. <br>
+            Am trying to recall everything i have been practicing 
+            this past week. </p>
+    </section>
+    <hr>
+    <article>
+        <h2>PROGRAMS AM INTO</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>Python</li>
+        </ul><hr>
+        </article>
+    <table border="1">
+        <tr>
+            <th> names</th>
+            <th> requirement</th>
+            <th> tools</th>
+        </tr>
+        <tr>
+        <td>univelcity</td>
+        <td>laptop</td>
+        <td>vs code</td>
+        </tr>
+        <tr>
+        <td> full stack web development</td>
+        <td>Deligence</td>
+        <td>HTML</td>
+        </tr>
+    </table> <hr>
+</main>
+<form id="checkpoint" method="post" action="/submit">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" 
+    maxlength="30" required>
+    <br><br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address">
+    <br><br>
+    <label for="age">AGE:</label>
+    <input type="number" id="age" name="age" min="18" max="60" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="valid email address" required>
+    <br><br>
+    <label for="gender">GENDER</label>
+    <select id="gender" name="gender">
+         <option value="">select gender</option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="others">others</option>
+    </select><br><br>  
+    <p>OCCUPATION</p>
+    <input type="radio" id="Employee" name="job" 
+    value="Employee">
+    <label for="Employee">Employee</label>
+    <input type="radio" id="Employer" name="job" 
+    value="Employer">
+    <label for="Employer"> Employer</label>
+    <input type="radio" id="others" name="job" 
+    value="others">
+    <label for="others"> Others</label>
+    <br>
+<p>Do you support me</p>
+<input type="radio" name="support" id="YES" value="YES" required>
+<label for="YES">YES</label><br>
+<input type="radio" name="support" id="NO" value="NO">
+<label for="NO">NO</label><br><br>
+<label for="password">password:</label>
+    <input type="password" id="password" name="password" 
+    minlength="8"><br><br>
+    <button type="submit">submit</button>
+</form>
+
+    
+</body>
+</html>
